@@ -1,4 +1,4 @@
-filename = "input.txt"
+filename = 'input.txt'
 
 total_increase = 0
 previous_num = None

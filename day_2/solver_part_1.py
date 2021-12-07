@@ -1,8 +1,8 @@
-filename = "input.txt"
+filename = 'input.txt'
 
-CONST_FORWARD = "forward"
-CONST_UP = "up"
-CONST_DOWN = "down"
+CONST_FORWARD = 'forward'
+CONST_UP = 'up'
+CONST_DOWN = 'down'
 
 x = 0
 y = 0
@@ -16,6 +16,6 @@ with open(filename) as f:
         elif direction == CONST_DOWN:
             y += int(unit)
         else:
-            raise Exception('Invalid direction')
-
+            raise Exception("Invalid direction.")
+f.close()
 print(x*y)
