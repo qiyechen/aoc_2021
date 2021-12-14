@@ -1,9 +1,5 @@
 FILE_NAME = 'input.txt'
 
-HORIZONTAL= "horizontal"
-VERTICAL = "vertical"
-DIAGONAL = "diagonal"
-
 def solve():
     start_coordinates, end_coordinates, largest_x, largest_y = get_report()
     map = [[0 for y in range(largest_y + 1)] for x in range(largest_x + 1)]
