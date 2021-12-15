@@ -15,7 +15,7 @@ def get_fish_ages():
     return ages
 
 def get_fish_age_to_population_map(ages):
-    age_populations = [0 for x in range(NEW_FISH_CYCLE)]
+    age_populations = [0] * NEW_FISH_CYCLE
 
     for age in ages:
         age_populations[age] += 1
